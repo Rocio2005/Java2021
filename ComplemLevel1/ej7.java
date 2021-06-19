@@ -16,7 +16,7 @@ public class ej7 {
         //System.out.println(aMayu('o')) para indicar caracter uso ''
     }
     //use el metodo amayu de un compañero,qué significa letra-'a'+'A'?
-    static char aMayu(char letra){
+    public static char aMayu(char letra){
         char mayuLetra=(char) (letra-'a'+'A');
         return mayuLetra;
     }
